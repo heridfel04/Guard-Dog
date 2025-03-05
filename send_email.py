@@ -4,7 +4,7 @@ from email.mime.text import MIMEText
 def send_alert(message):
     sender_email = "kaligotla.prasanna44@gmail.com"
     receiver_email = "kingslays14@gmail.com"  # SMS via email (e.g., AT&T: number@txt.att.net)
-    password = "jfkv bnbk zdgk heet"  # Create this in Gmail settings (see notes below)
+    password = ""  # Create this in Gmail settings (see notes below)
 
     # Create a MIMEText object with UTF-8 encoding
     msg = MIMEText(message, 'plain', 'utf-8')
